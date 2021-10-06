@@ -9,5 +9,4 @@ public class Pw26sApplication {
     public static void main(String[] args) {
         SpringApplication.run(Pw26sApplication.class, args);
     }
-
 }
