@@ -34,7 +34,5 @@ public class Movimentacao {
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "caixa_id")
     private Caixa caixa;
-
-
 }
 
