@@ -30,5 +30,4 @@ public class Funcionario {
     public boolean isGerente() {
         return this.cargo.equals("gerente");
     }
-
 }
