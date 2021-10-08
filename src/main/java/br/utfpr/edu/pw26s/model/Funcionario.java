@@ -28,6 +28,6 @@ public class Funcionario {
     private String cargo;
 
     public boolean isGerente() {
-        return this.cargo.equals("gerente");
+        return this.cargo.equals("gerente") || this.cargo.equals("dono");
     }
 }
