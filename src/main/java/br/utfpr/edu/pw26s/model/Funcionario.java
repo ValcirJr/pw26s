@@ -24,4 +24,10 @@ public class Funcionario {
     private BigDecimal salario;
 
     private String cpf;
+
+    private String cargo;
+
+    public boolean isGerente() {
+        return this.cargo.equals("gerente");
+    }
 }
