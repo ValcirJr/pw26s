@@ -12,7 +12,7 @@ import java.util.Optional;
 @Service
 public interface CrudService <T, ID extends Serializable>  {
 
-    Iterable<T> findAll();
+    List<T> findAll();
 
     Iterable<T> findAll(Sort sort);
 
@@ -41,6 +41,8 @@ public interface CrudService <T, ID extends Serializable>  {
     void deleteById(ID id);
 
     void delete(T entity);
+
+    void delete(ID id);
 
     void deleteAllById(Iterable<ID> ids);
 

@@ -27,7 +27,7 @@ public class SimpleCorsFilter implements Filter {
 
         if("OPTION".equalsIgnoreCase(((HttpServletRequest) req).getMethod())){
             response.setStatus(HttpServletResponse.SC_OK);
-        } else{
+        } else {
             filterChain.doFilter(req, res);
         }
     }
