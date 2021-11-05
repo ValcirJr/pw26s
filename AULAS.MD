@@ -16,8 +16,6 @@
 ##JPA
 
 - metodos -> https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.query-methods.query-creation
-
 - query's -> https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.query.spel-expressions
-
 
 

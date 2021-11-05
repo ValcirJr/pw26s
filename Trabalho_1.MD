@@ -1,3 +1,5 @@
+## TRABALHO 1
+
 1) Criar um projeto simples, como fizemos na aula de SOLID, com um service que crie um receituário médico, passando para um método uma lista de doenças, cada doença deve listar os cuidados mínimos (ex: beber bastante água) e uma lista de médicamentos.
 O Receituário deve possuír também o nome do paciente, e dias de atestado. Deve-se calcular quando será o dia do fim do atestado.
 
@@ -14,3 +16,18 @@ Pois quero saber como vou estruturar as aulas de service que entraremos na próx
 <b>Valor: 1 pt.</b>
 
 * Entrega: até dia 27/10 23:59
+
+## TRABALHO 2
+
+SERVIDOR - CRUD.
+-	Criar a camada model. Deve possuir: uma correlação ManyToMany (Receituario, Doecna, ReceituarioDoenca ou ManyToMany  Spring)), 3 tipo de objeto
+-	Criar camada repository com JPA
+-	Criar a camada service
+-	Criar camada controller
+-	Fazer CORS config
+-	Fazer securiy. (em aberto)
+
+OBS: Testar com postman
+
+Entrega 19/11/2021 23:59
+valor: 2pt

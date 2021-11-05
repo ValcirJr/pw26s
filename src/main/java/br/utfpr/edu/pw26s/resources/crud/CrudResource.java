@@ -27,7 +27,7 @@ public abstract class CrudResource<T, ID extends Serializable> {
         PageRequest pageRequest = PageRequest.of(page, size);
 
         if(order != null && asc != null)
-            pageRequest = PageRequest.of(page, size, asc ? Sort.Direction.ASC: Sort.Direction.DESC, order);
+            pageRequest = PageRequest.of(page, size, asc ? Sort.Direction.ASC : Sort.Direction.DESC, order);
 
         return getService().findAll(pageRequest);
     }
